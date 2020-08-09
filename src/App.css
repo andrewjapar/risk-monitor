@@ -33,6 +33,38 @@
   text-align: left;
 }
 
+.App-reward, .App-loss {
+  margin: 0 16px 16px;
+  text-align: left;
+}
+
+.App-reward {
+  margin-top: 16px;
+}
+
+.App-risklist-container {
+  width: 100%;
+}
+
+.App-risklist-item {
+  box-shadow: 0 4px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 24px;
+  position: relative;
+  width: 75%;
+  padding-top: 75%;
+  margin: 12px auto;
+}
+
+.App-risklist-percentage {
+  position:  absolute;
+   top: 35%;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   font-size: 12px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
